@@ -50,3 +50,12 @@ node app.js
 cd client
 npm start
 ```
+
+### NodeMon-ing the app
+
+To continously run the app and build changes as and when done
+
+```
+cd server
+nodemon app.js
+```
