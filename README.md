@@ -1,4 +1,4 @@
-# Blog-Tutorial
+# MERN Blog App
 
 Following a tutorial, implementing and improving the code along the way.
 MERN - MongoDB, Express, React, Node
