@@ -4,7 +4,9 @@ const Articles = mongoose.model('Articles');
 
 router.post('/', (req, res, next) => {
   const { body } = req;
-
+  
+  console.log(body);
+  
   if(!body.title) {
     return res.status(422).json({
       errors: {
@@ -50,7 +52,7 @@ router.param('id', (req, res, next, id) => {
       req.article = article;
       return next();
     }
-  }).catch(next);
+  }).catch(res.sendStatus(404));
 });
 
 router.get('/:id', (req, res, next) => {

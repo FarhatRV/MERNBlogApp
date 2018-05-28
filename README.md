@@ -1,5 +1,7 @@
 # Blog-Tutorial
 
+Following a tutorial, implementing and improving the code along the way.
+MERN - MongoDB, Express, React, Node
 Simple blog created using React.js & Node.js
 
 ### Prerequisites
@@ -8,6 +10,9 @@ Make sure you have these installed on your machine
 
 * [Node.js](https://nodejs.org/en/download/)
 * [MongoDB](https://www.mongodb.com)
+* **Installing, configuring and using MongoDB on Windows:**
+* **1**.Download the mongoDB MSI Bundle, and run it.
+* **2**."C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" in cmd to start a mongoDB server
 * **npm** This comes with Node.js, but make sure you check if you have it anyway
 
 ### Installing packages
